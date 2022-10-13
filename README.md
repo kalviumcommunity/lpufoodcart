@@ -1,2 +1,2 @@
 # lpufoodcart
-Created with CodeSandbox
+ Where the yummy app is made.
