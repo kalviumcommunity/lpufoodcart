@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    padding: 20px 80px;
+}
+
+.nav,.nav-links,.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.nav-links *{
+    margin: 0 10px;
+}
+
+.logo-text{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.logo-img{
+    height: 120px;
+  margin: -30px -20px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.kalvi-logo{
+    height: 34px;
+}
+
+#hero{
+    background: url("./assets/hero-bg.jpg") center;
+    background-size: cover;
+    color: white;
+    padding: 50px  100px;
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 34px;
+    background-color: rgba(0, 0, 0, 0.24);
+    background-blend-mode:multiply;
+}
+
+.hero-text{
+    margin: -10px;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#main a{
+    line-height: 32px;
+font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+.main-item{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+    align-items: center;
+}
+
+/*Menu styling*/
+
+/* .menu{
+  display: flex; 
+  flex-wrap: wrap; 
+  flex-direction: column;
+} */
+
+.menu img{
+/*   max-width: 95%; */
+  padding:10px;
+  max-height: 100vh;
+}
+
+.store-content{
+  padding: 20px;
+}
+
+
