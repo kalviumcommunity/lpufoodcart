@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+  min-height:100vh;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    padding: 20px 80px;
+    transition: .4s ease-in-out;
+}
+
+.nav,.nav-links,.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.nav-links *{
+    margin: 0 10px;
+    color: white;
+}
+
+.logo-text{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+
+.logo-img{
+    height: 120px;
+  margin: -30px -20px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.kalvi-logo{
+    height: 34px;
+}
+
+.active{
+    height: auto;
+}
+
+.active .nav, .active .nav-links{
+    flex-direction: column;
+}
+
+.active .nav-links,.active.nav .kalvi-logo{
+    display: block;
+}
+
+
+.mainItem{
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header, h3{
+    color: black;
+    font-weight: bolder;
+}
+/* .header{
+    display: flex;
+    justify-content: center;
+} */
+.northIndian, .continental, .regional, .fiveitems {
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+    align-items: center;
+}
+.mwl{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(14, 14, 14);
+    color:white;
+  }
+  
+.mwl span{
+    color:red;
+  }
+
+  .mwl pre{
+    color: #ef3837;
+  }
+
+  a{
+    padding: 3px 20px;
+    transition: .2s ease-in ;
+  }
+  a:hover{
+    color: #ef3837 !important;
+    background-color: #ff31311c;
+    border-radius: 10px;
+  }
