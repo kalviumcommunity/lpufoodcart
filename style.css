@@ -11,6 +11,7 @@
     background-color: black;
     color: white;
     padding: 20px 80px;
+    transition: .4s ease-in-out;
 }
 
 .nav,.nav-links,.logo{
@@ -43,6 +44,34 @@
     height: 34px;
 }
 
+.active{
+    height: auto;
+}
+
+.active .nav, .active .nav-links{
+    flex-direction: column;
+}
+
+.active .nav-links,.active.nav .kalvi-logo{
+    display: block;
+}
+
+.hemb{
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.hemb div{
+    height: 3px;
+    width: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
 #hero{
     background: url("./assets/hero-bg.jpg") center;
     background-size: cover;
@@ -53,6 +82,9 @@
     font-size: 34px;
     background-color: rgba(0, 0, 0, 0.24);
     background-blend-mode:multiply;
+      transition: .5s ease-in;
+    position: relative;
+    top:0;
 }
 
 .hero-text{
@@ -80,10 +112,12 @@ font-size: 22px;
     margin-right: 20px;
 }
 
+.main-1,.main-2{
+    border-right: 1px solid black;
+    padding-right: 60px;
+}
+
 footer{
-    position: relative;
-    bottom: 0;
-    left: 0;
     background-color: black;
     color: white;
     display: flex;
@@ -91,6 +125,145 @@ footer{
     height: 15vh;
     align-items: center;
 }
+
+.mwl{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(14, 14, 14);
+    color:white;
+  }
+  
+  .mwl span{
+    color:red;
+  }
+
+  .mwl pre{
+    color: #ef3837;
+  }
+
+  a{
+    padding: 3px 20px;
+    transition: .2s ease-in ;
+  }
+
+  a:hover{
+    color: #ef3837 !important;
+    background-color: #ff31311c;
+    border-radius: 10px;
+  }
+
+  @media screen and (max-width:1024px) {
+    .nav{
+        padding: 20px 40px;
+    }
+
+    .logo-text{
+        font-size: 28px;
+    }
+    
+    .logo-img{
+        height: 80px;
+    }
+    
+    .kalvi-logo{
+        height: 28px;
+    }
+
+    .nav-links{
+        font-size: 14px;
+    }
+
+    #main a{
+    font-size: 20px;
+    }
+
+    .main-1,.main-2{
+        border-right: 1px solid black;
+        padding-right: 25px;
+    }
+  }
+
+  @media screen and (max-width:768px){
+    .nav{
+        padding: 20px;
+    }
+
+    .logo-text{
+        font-size: 22px;
+    }
+    
+    .logo-img{
+        height: 60px;
+    }
+    
+    .kalvi-logo{
+        height: 20px;
+    }
+
+    .nav-links{
+        font-size: 12px;
+    }
+
+    .hero-text{
+        font-size: 32px;
+    }
+
+    #main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 40px;
+        gap:20px;
+    }
+    
+    #main a{
+    font-size: 16px;
+    }
+
+    .main-1,.main-2{
+        border-right: none;
+        padding-right: 0;
+    }
+  }
+
+  @media screen and (max-width:480px){
+    .nav-links,.nav .kalvi-logo{
+        display: none;
+    }
+
+    .hemb{
+        display: flex;
+    }
+
+    #hero{
+        padding:30px 50px;
+    }
+
+    .hero-text{
+        font-size: 28px;
+    }
+
+    #main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main a{
+    font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width:330px){
+    footer{
+        flex-direction: column;
+    }
+  }
+
+
+
 
 /*Menu styling*/
 
@@ -102,12 +275,29 @@ footer{
 
 .menu img{
 /*   max-width: 95%; */
-  padding:10px;
+  padding:10px 0;
   max-height: 100vh;
+  max-width: 100%
 }
 
 .store-content{
-  padding: 20px;
+  padding: 20px 10px;
+}
+
+/* location template styling  */
+
+.stores{
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+    align-content: center;
+    justify-content: space-between;
+}
+.stores a{
+    line-height: 32px;
+font-size: 22px;
+    color: black;
+    text-decoration: none;
 }
 
 

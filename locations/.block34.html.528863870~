@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
- <link rel="stylesheet" href="../style.css">
-   
+<link rel="stylesheet" href="../style.css">
+    
 </head>
 <body>
   <nav class="nav">
@@ -15,50 +15,74 @@
           <h3 class="logo-text">FOODFOLIO</h3>
         </div>
         <div class="nav-links">
-            <a href="../index.html" target="_blank">
+            <a href="">
                 <h3>HOME</h3>
             </a>
-            <a href="/aboutus.html" target="_blank">
+            <a href="./about_us/aboutus.html" target="_blank">
                 <h3>ABOUT US</h3>
             </a>
             <img class="kalvi-logo" src="https://kalvium.com/wp-content/uploads/2022/07/Logo-nav.png" alt="">
         </div>
       </nav>
+                <div class="stores">
+                    <a href=thetandoorhub>The Tandoor Hub </a>
+                </div>
 
+                <div class="stores">
+                    <a href="../stores/terracecafe.html" target="_blank">American Pizza  </a>
+                </div>
 
                 <div class="stores">
-                    <a href="../stores/abjuicebar.html" target="_blank">A B Juice Bar </a>
+                    <a href="../stores/kamaljuiceandshakecorner.html" target="_blank">Kamal Juice & Shake Corner  </a>
                 </div>
-<!--abjuicebar.html-->
-                <div class="stores">
-                    <a href="../stores/chaigarampocketcafe.html" target="_blank">Chai Garam Pocket Cafe  </a>
-                </div>
-<!-- chaigarampocketcafe.html -->
-                <div class="stores">
-                    <a href="../stores/fruitshoot.html" target="_blank">Fruit Shoot  </a>
-                </div>
-<!-- fruitshoot.html -->
-                <div class="stores">
-                    <a href="../stores/lambajuicebar.html" target="_blank">Lamba Juice bar   </a>
-                </div>
-<!-- lambajuicebar.html -->
-                <div class="stores">
-                    <a href="../stores/lovelysweets.html" target="_blank">Lovely Sweets  </a>
-                </div>
-<!-- lovelysheets.html -->
-                <div class="stores">
-                    <a href="../stores/nescafe.html" target="_blank">Nescafe  </a>
-                </div>
-<!-- nescafe.html -->
-                <div class="stores">
-                    <a href="../stores/proteinhouse2.html" target="_blank">Protein House  </a>
-                </div>
-<!-- proteinhouse2.html -->
-                <div class="stores">
-                    <a href="../stores/payalchat.html" target="_blank">Payal Chat  </a>
-                </div>
-<!--   payalchat.html -->
 
+                <div class="stores">
+                    <a href="../stores/nepaliswadh.html" target="_blank">Nepali Swadh  </a>
+                </div>
+
+                <div class="stores">
+                    <a href="../stores/funbyts.html" target="_blank">Fun Byts  </a>
+                </div>
+
+                <div class="stores">
+                    <a href="../stores/falvqures.html" target="_blank">Flavqures  </a>
+                </div>
+
+                <div class="stores">
+                    <a href="../stores/bengalibawarchi.html" target="_blank">Bengali Bawarchi  </a>
+                </div>
+
+                <div class="stores">
+                    <a href="">Payal Chat  </a>
+                </div>
+
+                <div class="stores">
+                    <a href="">Ruchi Taste of Andhra  </a>
+                </div>
+
+                <div class="stores">
+                    <a href="">Varindavan  </a>
+                </div>
+
+                <div class="stores">
+                    <a href="">Freziller  </a>
+                </div>
+
+                <div class="stores">
+                    <a href="">Talk Of The Town  </a>
+                </div>
+<!--   thetandoorhub.html
+  americanpizza.html
+  kamaljuiceandshakecorner.html
+  nepaliswadh.html
+  funbyts.html
+  flavqures.html
+  bengalibawarchi.html
+  payalchat.html
+  ruchitasteofandhra.html
+  varindavan.html
+  freziller1.html
+  talkofthetown.html -->
   <footer>
         <div class="logo">
             <img class="logo-img" src="./assets/logo.png" alt="">

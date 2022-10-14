@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+.heading {
+  padding-top: 30px;
+  text-align: center;
+}
+#p {
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.heading {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+.ss {
+  font-size: 30px;
+  font-weight: bold;
+}
+.img img{
+  padding-top: 55px;
+  height: 300px;
+  width: 480px;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#credit {
+  background-color: #ffd6e1;
+  padding-bottom: 400px;
+}
+.ss h3 {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+a.link:link {
+  text-decoration: none;
+  color: black;
+}
+a.link:visited {
+  color: black;
+}
+h3#ss{
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+#git1 {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+#git2 {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+#crtext {
+  text-align: center;
+  list-style-position: inside;
+  font-size: 20px;
+}
+.p {
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+.abtus{
+  border: 2px solid red;
+  border-left: none;
+  border-right: none;
+}
