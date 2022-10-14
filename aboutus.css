@@ -39,8 +39,8 @@ h1 {
   justify-content: space-around;
 }
 #credit {
-  background-color: #ffd6e1;
-  padding-bottom: 400px;
+  background-color: #F2D2BD;
+  padding-bottom: 55px;
 }
 .ss h3 {
   font-size: 30px;
@@ -92,4 +92,7 @@ h3#ss{
   border: 2px solid red;
   border-left: none;
   border-right: none;
+}
+.lalalogo{
+  margin: 200px 0px 0px 0px;
 }
