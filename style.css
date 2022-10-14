@@ -321,11 +321,12 @@ font-size: 22px;
     text-decoration: none;
 }
 
+/* Promotions */
+
 #offers{
   text-align: center;
   font-size: 70px;
   font-weight: bold;
-  
 }
 
 .storeoffers{
@@ -345,10 +346,14 @@ font-size: 22px;
 }
 
 .off-img{
-  width: 250px;
+  width: 200px;
 }
 
 .storeoffers a{
   text-decoration: none;
   color: black;
+}
+
+.head{
+  font-size: 20px;
 }
