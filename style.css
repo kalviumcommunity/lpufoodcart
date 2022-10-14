@@ -312,4 +312,22 @@ font-size: 22px;
     text-decoration: none;
 }
 
-.
+#offers{
+    text-align: center;
+}
+
+.storeoffers{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.offers1{
+    display: flex;
+    flex-direction: column;
+}
+
+.offers2{
+    display: flex;
+    flex-direction: column;
+}
