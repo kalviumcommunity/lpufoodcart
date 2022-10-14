@@ -4,9 +4,9 @@ document.querySelectorAll(".logo").forEach(elt => {
   }
 })
 
-let analyticScript = document.createElement("script");
-analyticScript.setAttribute("src", "https://cdn.splitbee.io/sb.js")
-document.body.append(analyticScript)
+// let analyticScript = document.createElement("script");
+// analyticScript.setAttribute("src", "https://cdn.splitbee.io/sb.js")
+// document.body.append(analyticScript)
 
 const hemb = document.getElementById('hemb')
 const nav = document.getElementById('nav')
