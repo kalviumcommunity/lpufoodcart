@@ -322,7 +322,10 @@ font-size: 22px;
 }
 
 #offers{
-    text-align: center;
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  
 }
 
 .storeoffers{
@@ -339,4 +342,13 @@ font-size: 22px;
 .offers2{
     display: flex;
     flex-direction: column;
+}
+
+.off-img{
+  width: 200px;
+}
+
+.storeoffers a{
+  text-decoration: none;
+  color: black;
 }
