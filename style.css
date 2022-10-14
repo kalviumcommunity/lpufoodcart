@@ -330,7 +330,7 @@ font-size: 22px;
 
 .storeoffers{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 10px;
 }
 
@@ -345,7 +345,7 @@ font-size: 22px;
 }
 
 .off-img{
-  width: 200px;
+  width: 250px;
 }
 
 .storeoffers a{
