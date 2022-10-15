@@ -9,6 +9,7 @@
 
 body{
   min-height:100vh;
+/*   display: inline-block; */
 }
 
 .nav{
@@ -134,6 +135,7 @@ footer{
     justify-content: space-around;
     height: 15vh;
     align-items: center;
+  width: 1519px;
 }
 
 .store-list,.store-content{

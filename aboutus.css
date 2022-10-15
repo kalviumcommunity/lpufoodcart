@@ -85,8 +85,7 @@ h3#ss{
   font-size: 20px;
 }
 .p {
-  font-weight: bolder;
-  padding-bottom: 20px;
+  font-weight: bolder;padding-bottom: 20px;
 }
 .abtus{
   border: 2px solid red;
@@ -96,3 +95,5 @@ h3#ss{
 .lalalogo{
   margin: 200px 0px 0px 0px;
 }
+
+/* mobile reposnive part */
