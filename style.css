@@ -135,7 +135,7 @@ footer{
     justify-content: space-around;
     height: 15vh;
     align-items: center;
-  width: 1519px;
+/*   width: 1519px; */
 }
 
 .store-list,.store-content{
